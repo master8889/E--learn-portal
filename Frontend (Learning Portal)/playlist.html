@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    
+    <header class ="header">
+        <section class ="flex">
+            <a href = "home.html" class = "logo">E-Learn</a>
+            <form action="seach.html" method="post" class="search-form">
+                <input type="text" name ="search_box" placeholder="Search..." required maxlength="100">
+                <button type="submit" class ="fas fa-search" name="search_box"></button>
+            </form>
+            <div class ="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./profile.jpeg" alt="" width="50">
+                <h3>Umarajaram</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html " class="option-btn">login</a>
+                    <a href="register.html " class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--side navbar-->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpeg" alt="" width="50">
+            <h3>Umarajaram</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+
+    </div>
+
+    <section class="playlist">
+        <h1 class="heading">Playlist Details</h1>
+
+        <div class="row">
+            <div class="col">
+                <form action="" method="post" class="save-list">
+                    <button type="submit" name="save-list"><i class="far fa-bookmark"></i><span>Save Playlist</span></button>
+                </form>
+                <div class="thumb">
+                    <span>6-videos</span>
+                <img src="html1.jpg" alt="" >
+            </div>
+        </div>
+            <div class="col">
+                <div class="tutor">
+                    <img src="man.png" alt="">
+                    <div> 
+                        <h3>Roshan</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <div class="details">
+                    <h3>Complete HTML Tutorial</h3>
+                    <p>HTML (HyperText Markup Language) is the basic language for creating web pages. It structures content with elements like headings, paragraphs, and images. Learning HTML is essential for web development, and our courses make it easy and fun for beginners.</p>
+                    <div class="date"><i class="fas fa-calendar"></i><span>21-05-2024</span></div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--videos list-->
+    <section class="videos-container">
+        <h1 class="heading">playlist videos</h1>
+        <div class="box-container">
+            <a href="watch-video.html" class="box">
+               <i class="fas fa-play"></i>
+               <img src="part1.png" alt="">
+               <h3>Complete HTML Tutorial (part - 01)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="part2.png" alt="">
+                <h3>Complete HTML Tutorial (part - 02)</h3>
+             </a>
+
+             <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="part3.png" alt="">
+                <h3>Complete HTML Tutorial (part - 03)</h3>
+             </a>
+
+             <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="part4.png" alt="">
+                <h3>Complete HTML Tutorial (part - 04)</h3>
+             </a>
+
+             <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="part5.png" alt="">
+                <h3>Complete HTML Tutorial (part - 05)</h3>
+             </a>
+
+             <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="part6.png" alt="">
+                <h3>Complete HTML Tutorial (part - 06)</h3>
+             </a>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        &copy; copyright @2020 by <span>E-Learn</span> | all rights reserved!
+    </footer>
+    <script defer src = "script.js"></script>
+    
+    
+</body>
+</html>

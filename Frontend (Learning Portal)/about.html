@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    
+    <header class ="header">
+        <section class ="flex">
+            <a href = "home.html" class = "logo">E-Learn</a>
+            <form action="seach.html" method="post" class="search-form">
+                <input type="text" name ="search_box" placeholder="Search..." required maxlength="100">
+                <button type="submit" class ="fas fa-search" name="search_box"></button>
+            </form>
+            <div class ="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./profile.jpeg" alt="" width="50">
+                <h3>Umarajaram</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html " class="option-btn">login</a>
+                    <a href="register.html " class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--side navbar-->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpeg" alt="" width="50">
+            <h3>Umarajaram</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+
+    </div>
+
+    <!--about-->
+    <section class="about">
+        <div class="row">
+        <div class="image">
+            <img src="aboutimg.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Why Choose Us ?</h3>
+            <p>Choose our e-learning portal for a great learning experience. We offer many courses, expert teachers, and fun content. Our platform is easy to use, flexible, and supports you 24/7. Join us for quality, convenience, and engaging education.
+            </p>
+            <a href="courses.html" class="inline-btn">Our Courses</a>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+                <h3>+1k</h3>
+                <span>courses</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <div>
+                <h3>+20k</h3>
+                <span>Brilliants Student</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chalkboard-user"></i>
+            <div>
+                <h3>+5k</h3>
+                <span>Experts</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-briefcase"></i>
+            <div>
+                <h3>100%</h3>
+                <span>Placements</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--reviwe-->
+    <section class="reviews">
+        <h1 class="heading">Students's Reviews</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <p>The courses are easy to follow and very informative. I learned a lot and enjoyed the process!</p>
+                <div class="user">
+                    <img src="women2.png" alt="">
+                    <div>
+                        <h3>Aavanthi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Great platform! The instructors are knowledgeable, and the content is engaging. Highly recommend!</p>
+                <div class="user">
+                    <img src="women3.png" alt="">
+                    <div>
+                        <h3>Vinaya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>I love the flexibility of this e-learning portal. I can study anytime, anywhere. It fits perfectly into my busy schedule.</p>
+                <div class="user">
+                    <img src="man3.png" alt="">
+                    <div>
+                        <h3>Karan</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Excellent support team! They are always ready to help and make my learning experience smooth.</p>
+                <div class="user">
+                    <img src="review1.png" alt="">
+                    <div>
+                        <h3>shakshi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>The interactive content makes learning fun and effective. I feel more confident in my skills now.</p>
+                <div class="user">
+                    <img src="women1.png" alt="">
+                    <div>
+                        <h3>Rosey</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Affordable and high-quality courses. This e-learning portal is a fantastic investment in my education</p>
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Rajesh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        &copy; copyright @2020 by <span>E-Learn</span> | all rights reserved!
+    </footer>
+    <script defer src = "script.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    
+    <header class ="header">
+        <section class ="flex">
+            <a href = "home.html" class = "logo">E-Learn</a>
+            <form action="seach.html" method="post" class="search-form">
+                <input type="text" name ="search_box" placeholder="Search..." required maxlength="100">
+                <button type="submit" class ="fas fa-search" name="search_box"></button>
+            </form>
+            <div class ="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./profile.jpeg" alt="" width="50">
+                <h3>Umarajaram</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html " class="option-btn">login</a>
+                    <a href="register.html " class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--side navbar-->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpeg" alt="" width="50">
+            <h3>Umarajaram</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+
+    </div>
+
+    <!--contact-->
+
+    <section class="contact">
+        <div class="row">
+            <div class="image">
+                <img src="contactusillus.jpg" alt="">
+            </div>
+            <form action="" method="post">
+                <h3> Get in Touch</h3>
+                <input type ="text" placeholder="Enter your name" required maxlength="100" name="name" class="box"> 
+                <input type ="email" placeholder="Enter your mail" required maxlength="100" name="email" class="box">
+                <input type ="number" placeholder="Enter your number" required maxlength="100" name="number" class="box">
+                <textarea name="msg" class="box" placeholder="Enter your message" required cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="inline-btn" name="submit">
+            </form>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>Phone Number</h3>
+                <a href="tel:6789370109">678-937-0109</a>
+                <a href="tel:7850472183">785-047-2183</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Address</h3>
+                <a href="mailto: elearn555@gmail.com">elearn555@gmail.com</a>
+                <a href="mailto: beevilearn@gmail.com">beevilearn@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Office Address</h3>
+                <a href="#">street no.6<sup>th</sup>cross, mangalpur - 650450</a>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        &copy; copyright @2020 by <span>E-Learn</span> | all rights reserved!
+    </footer>
+    <script defer src = "script.js"></script>
+    
+    
+</body>
+</html>

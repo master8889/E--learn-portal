@@ -1,0 +1,25 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "pdfmake": "^0.1.4",
+    "postman-cli": "^0.0.0-alpha.0",
+    "stripe": "^16.2.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8"
+  }
+}

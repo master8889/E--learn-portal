@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <title>Teacher</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    
+    <header class ="header">
+        <section class ="flex">
+            <a href = "home.html" class = "logo">E-Learn</a>
+            <form action="seach.html" method="post" class="search-form">
+                <input type="text" name ="search_box" placeholder="Search..." required maxlength="100">
+                <button type="submit" class ="fas fa-search" name="search_box"></button>
+            </form>
+            <div class ="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./profile.jpeg" alt="" width="50">
+                <h3>Umarajaram</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html " class="option-btn">login</a>
+                    <a href="register.html " class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--side navbar-->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpeg" alt="" width="50">
+            <h3>Umarajaram</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+
+    </div>
+
+    <!--watch videos-->
+    <section class="watch-video">
+        <div class="video-details">
+            <video src="" class="video" poster="" controls autoplay></video>
+            <h3 class="title">Complete HTML Tutorial (part - 01)</h3>
+            <div class="info">
+                <p><i class="fas fa-calendar"></i><span>21-04-2024</span></p>
+                <p><i class="fas fa-heart"></i><span>30 likes</span></p>
+            </div>
+            <div class="tutor">
+                <img src="man.png" alt="">
+                <div>
+                    <h3>Roshan</h3>
+                    <span>Developer</span>
+                </div>
+            </div>
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit"><i class="far fa-heart"></i><span>like</span></button>
+            </form>
+            <div class="description">
+                <p>Our expert tutor will guide you through interactive lessons, hands-on exercises, and real-world projects to ensure you gain practical experience and confidence in your HTML skills.</p>
+                <p>By the end of this course, you'll be able to design and build professional-quality web pages and be well-prepared for more advanced web development topics.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--comments-->
+    <section class="comments">
+        <h1 class="heading">add a comment</h1>
+        <form action="" method="post" class="add-comment">
+            <h3>Add Title</h3>
+            <textarea name="comment_box" required placeholder="Write Your Comments..." maxlength="1000" cols="30" rows="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+        </form>
+        <h1 class="heading">6 comments</h1>
+
+        <div class="show-comments">
+            <div class="box">
+                <div class="user">
+                    <img src="profile.jpeg" alt="">
+                    <div>
+                        <h3>Umarajaram</h3>
+                        <span>21-06-2024</span>
+                    </div>
+                </div>
+                <p class="comment">The courses are well-structured and easy to follow. Highly recommended!</p>
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                    <button type="submit" name="delete_comment" class="inline-delete-btn">delete comment</button>
+
+
+                </form>
+                
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="women3.png" alt="">
+                    <div>
+                        <h3>Kayal</h3>
+                        <span>27-06-2024</span>
+                    </div>
+                </div>
+                <p class="text">The interactive lessons make learning fun and effective. Excellent experience!
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="man3.png" alt="">
+                    <div>
+                        <h3>Rohanth</h3>
+                        <span>26-05-2024</span>
+                    </div>
+                </div>
+                <p class="text">Great variety of courses available. I've learned so much in a short time.
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="women1.png" alt="">
+                    <div>
+                        <h3>Kowsi</h3>
+                        <span>01-04-2024</span>
+                    </div>
+                </div>
+                <p class="text">This e-learning portal has significantly improved my skills. Thank you!
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="man.png" alt="">
+                    <div>
+                        <h3>Aashim</h3>
+                        <span>09-06-2024</span>
+                    </div>
+                </div>
+                <p class="text">I love the flexibility of learning at my own pace. This platform is fantastic!
+                </p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="women2.png" alt="">
+                    <div>
+                        <h3>Dheksha</h3>
+                        <span>21-01-2024</span>
+                    </div>
+                </div>
+                <p class="text">The instructors are knowledgeable and the content is very engaging
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        &copy; copyright @2020 by <span>E-Learn</span> | all rights reserved!
+    </footer>
+    <script defer src = "script.js"></script>
+    
+    
+</body>
+</html>

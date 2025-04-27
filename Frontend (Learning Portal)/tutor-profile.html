@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <title>Tutor's profile</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    
+    <header class ="header">
+        <section class ="flex">
+            <a href = "home.html" class = "logo">E-Learn</a>
+            <form action="seach.html" method="post" class="search-form">
+                <input type="text" name ="search_box" placeholder="Search..." required maxlength="100">
+                <button type="submit" class ="fas fa-search" name="search_box"></button>
+            </form>
+            <div class ="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./profile.jpeg" alt="" width="50">
+                <h3>Umarajaram</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html " class="option-btn">login</a>
+                    <a href="register.html " class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--side navbar-->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpeg" alt="" width="50">
+            <h3>Umarajaram</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+
+    </div>
+
+<section class="tutor-profile">
+    <h1 class="heading">Profile Detail</h1>
+
+    <div class="details">
+        <div class="tutor">
+            <img src="man.png" alt="">
+            <h3>Roshan</h3>
+            <span>Developer</span>
+        </div>
+        <div class="flex">
+            <p>Playlists: <span>4</span></p>
+            <p>Videos: <span>20</span></p>
+            <p>Likes: <span>2000</span></p>
+            <p>Comments: <span>25</span></p>
+        </div>
+
+    </div>
+</section>
+
+<section class="courses">
+    <h1 class="heading">Our Courses</h1>
+    <div class="box-container">
+        <div class="box">
+            
+            <img src="./html1.jpg" class="thumb" alt="">
+            <h3 class="title">Complete HTML Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="./css.jpg" class="thumb" alt="">
+            <h3 class="title">Complete CSS Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+            <img src="./js.jpg" class="thumb" alt="">
+            <h3 class="title">Complete JS Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+        <div class="box">
+        
+            <img src="./figma1.jpg" class="thumb" alt="">
+            <h3 class="title">Complete FIGMA Tutorial</h3>
+            <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+        
+
+        </div>
+
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        &copy; copyright @2020 by <span>E-Learn</span> | all rights reserved!
+    </footer>
+    <script defer src = "script.js"></script>
+    
+    
+</body>
+</html>
